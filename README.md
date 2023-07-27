@@ -33,7 +33,7 @@ Uses a non-XML format, instead it uses a syntax based on **segments ( lines )** 
 - |  ( pipe ): field separator
 - ^ ( caret ): component separator
 - & ( ampersand ): sub component separator
-- # ( number sign ): default truncation separator
+- '#' ( number sign ): default truncation separator
 - ~ ( tilde ): default repetition separator
 
 Each segment starts with a 3-character string that identifies the segment type, so each segment contains one specific category of information.
